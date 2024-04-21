@@ -1,53 +1,62 @@
 [
-  
   {
     "id": 1,
     "city_name": "New York City",
+    "description": "New York City is a bustling metropolis known for its iconic landmarks such as Times Square, Central Park, and the Statue of Liberty. It is a global hub for finance, culture, and entertainment, offering a vibrant mix of art, food, and diverse neighborhoods.",
     "image_source": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": 2,
     "city_name": "Paris",
+    "description": "Paris is the capital of France and is known for its romantic ambiance, iconic landmarks such as the Eiffel Tower and Louvre Museum, and world-class cuisine. It is a city rich in history, art, and culture, with charming streets and beautiful architecture.",
     "image_source": "https://images.unsplash.com/photo-1550340499-a6c60fc8287c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": 3,
     "city_name": "Tokyo",
+    "description": "Tokyo is the capital of Japan and is known for its vibrant pop culture, cutting-edge technology, and traditional temples and gardens. It is a city of contrasts, with bustling streets and serene parks, offering a unique blend of old and new.",
     "image_source": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": 4,
     "city_name": "London",
+    "description": "London is the capital of England and is known for its rich history, iconic landmarks such as Big Ben and Buckingham Palace, and diverse cultural scene. It is a city of contrasts, with historic architecture and modern skyscrapers, offering a mix of tradition and innovation.",
     "image_source": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": 5,
     "city_name": "Dubai",
+    "description": "Dubai is a city in the United Arab Emirates known for its luxury shopping, ultramodern architecture, and vibrant nightlife scene. It is a city of superlatives, with the world's tallest building, largest shopping mall and artificial islands, offering a unique blend of opulence and innovation.",
     "image_source": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": 6,
     "city_name": "Sydney",
+    "description": "Sydney is the capital of New South Wales and is known for its iconic landmarks such as the Sydney Opera House and Harbour Bridge, as well as its beautiful beaches and vibrant cultural scene. It is a city of natural beauty and urban sophistication, offering a mix of outdoor adventures and cosmopolitan delights.",
     "image_source": "https://images.unsplash.com/photo-1612895201370-13cd67239a6c?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": 7,
     "city_name": "Rome",
+    "description": "Rome is the capital of Italy and is known for its ancient ruins, historic landmarks such as the Colosseum and Roman Forum, and vibrant street life. It is a city rich in history, art, and culture, with charming piazzas, fountains, and gelaterias, offering a taste of la dolce vita.",
     "image_source": "https://images.unsplash.com/photo-1531572753322-ad063cecc140?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": 8,
     "city_name": "Rio de Janeiro",
+    "description": "Rio de Janeiro is a vibrant city in Brazil known for its stunning beaches, lively samba music, and iconic landmarks such as Sugarloaf Mountain and Christ the Redeemer statue. It is a city of natural beauty and cultural richness, with a festive atmosphere and warm hospitality, offering a taste of carioca life.",
     "image_source": "https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": 9,
     "city_name": "Istanbul",
+    "description": "Istanbul is a city in Turkey known for its historic landmarks such as the Hagia Sophia and Blue Mosque, as well as its vibrant bazaars and delicious cuisine. It is a city of contrasts, with a mix of European and Asian influences, offering a unique blend of tradition and modernity.",
     "image_source": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": 10,
     "city_name": "Hong Kong",
+    "description": "Hong Kong is a city in China known for its skyscrapers, bustling street markets, and vibrant food scene. It is a city of contrasts, with a mix of modern and traditional influences, offering a unique blend of East and West.",
     "image_source": "https://images.unsplash.com/photo-1533029030467-904d7bbd602b?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ]
