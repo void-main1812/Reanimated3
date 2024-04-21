@@ -1,19 +1,23 @@
-import { Stack, Link } from 'expo-router';
+import { View, Text, SafeAreaView, StatusBar } from 'react-native';
+import React from 'react';
+import cities from '../assets/data/Cities.json';
 
-import { Button } from '~/components/Button';
-import { Container } from '~/components/Container';
-import { ScreenContent } from '~/components/ScreenContent';
-
-export default function Home() {
+const index = () => {
   return (
-    <>
-      <Stack.Screen options={{ title: 'Home' }} />
-      <Container>
-        <ScreenContent path="app/index.tsx" title="Home" />
-        <Link href={{ pathname: '/details', params: { name: 'Dan' } }} asChild>
-          <Button title="Show Details" />
-        </Link>
-      </Container>
-    </>
+    <View className={styles.screen} style={{ marginTop: StatusBar.currentHeight }}>
+      <Text>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos molestiae neque dolorem
+        sunt pariatur sint, cum eligendi voluptatum quaerat est aliquid inventore accusamus soluta
+        veritatis voluptate praesentium tenetur, ipsam delectus eum! Aliquam exercitationem
+        cupiditate fugit ut voluptates laborum aliquid minima tempora animi. Temporibus quia natus
+        optio sunt quaerat accusamus ullam?
+      </Text>
+    </View>
   );
-}
+};
+
+const styles = {
+  screen: 'h-full w-full justify-center items-center flex-1',
+};
+
+export default index;
