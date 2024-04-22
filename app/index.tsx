@@ -1,21 +1,15 @@
-import { View, Text, FlatList, Pressable } from 'react-native';
-import React from 'react';
-import { SafeAreaView } from 'react-native-safe-area-context';
 import { Image } from 'expo-image';
-import cities from '../assets/data/Cities.json';
 import { LinearGradient } from 'expo-linear-gradient';
-import { useRouter } from 'expo-router';
+import { Link } from 'expo-router';
+import React from 'react';
+import { FlatList, Pressable, Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import cities from '../assets/data/Cities.json';
 
 const CityCard = ({ source, name, id }: { source: string; name: string; id: number }) => {
-  const router = useRouter();
-
-  const handlePress = (id: number) => {
-    router.push({ pathname: '/[id]', params: { id: id } });
-  };
-
   return (
-    <Pressable onPress={() => handlePress(id)}>
-      <View className="mb-10 w-full">
+    <Link href={{ pathname: '/[id]', params: { id } }} asChild>
+      <Pressable className="mb-10 w-full">
         <View className={styles.cardImageContainer}>
           <Image className={styles.cardImage} style={{ height: 300 }} source={`${source}`} />
         </View>
@@ -26,8 +20,8 @@ const CityCard = ({ source, name, id }: { source: string; name: string; id: numb
             <Text className={styles.cardText}>{name}</Text>
           </View>
         </LinearGradient>
-      </View>
-    </Pressable>
+      </Pressable>
+    </Link>
   );
 };
 
