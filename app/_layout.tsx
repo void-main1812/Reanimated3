@@ -3,10 +3,12 @@ import '../global.css';
 
 import { Stack } from 'expo-router';
 
-export default function Layout() {
+const RootLayout = () => {
   return (
     <SafeAreaProvider>
-      <Stack screenOptions={{ headerShown: false }} />
+      <Stack screenOptions={{headerShown: false}} />
     </SafeAreaProvider>
   );
-}
+};
+
+export default RootLayout;
